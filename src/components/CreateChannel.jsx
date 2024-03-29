@@ -21,8 +21,8 @@ const ChannelNameInput = ({ channelName = "", setChannelName }) => {
       />
       <p>Add Members</p>
     </div>
-  );
-};
+  )
+}
 
 const CreateChannel = ({ createType, setIsCreating }) => {
   const { client, setActiveChannel } = useChatContext();

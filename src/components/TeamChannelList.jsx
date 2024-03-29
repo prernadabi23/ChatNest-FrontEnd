@@ -1,9 +1,10 @@
 import React from "react";
 import { Channel } from "stream-chat-react";
-import { EmojiPicker } from "stream-chat-react/emojis";
+// import { EmojiPicker } from "stream-chat-react/emojis";
 import { AddChannel } from "../assets";
 
 const TeamChannelList = ({
+  setToggleContainer,
   children,
   error = false,
   loading,
@@ -45,9 +46,10 @@ const TeamChannelList = ({
           setCreateType={setCreateType}
           setIsEditing={setIsEditing}
           type={type === "team" ? "team" : "messaging"}
+          setToggleContainer={setToggleContainer}
         />
       </div>
-      <Channel EmojiPicker={EmojiPicker}>{children}</Channel>;
+      <Channel>{children}</Channel>;
     </div>
   )
 };
