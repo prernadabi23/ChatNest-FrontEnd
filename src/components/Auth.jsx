@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Cookies from "universal-cookie";
 
 import axios from "axios";
-import signinImage from "../assets/signup.gif";
+// import signinImage from "../assets/signup.gif";
 
 const cookies = new Cookies();
 

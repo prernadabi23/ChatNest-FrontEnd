@@ -1,5 +1,5 @@
 import React from "react";
-import { Channel } from "stream-chat-react";
+// import { Channel } from "stream-chat-react";
 // import { EmojiPicker } from "stream-chat-react/emojis";
 import { AddChannel } from "../assets";
 
